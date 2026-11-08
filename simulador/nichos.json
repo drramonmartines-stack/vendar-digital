@@ -1,0 +1,83 @@
+{
+  "_comentario": "Premissas por nicho. Faixas [min, mais_provavel, max] viram distribuições triangulares. CPM em R$ por mil impressões, CTR = cliques no link / impressões, persona = como o público sintético é gerado. Valores são estimativas de planejamento (benchmarks públicos de 2026 dão CPM de infoproduto entre R$28 e R$60 e CPC entre R$3,20 e R$8,00, ambos projeções) e devem ser trocados pelos números reais depois dos primeiros R$100 de teste.",
+  "nichos": [
+    {
+      "id": "sono_bebe",
+      "nome": "Sono do bebê (mães de 0 a 2 anos)",
+      "produto": "Guia + planner de rotina de sono com 14 noites guiadas, áudios de ruído branco e checklist por idade",
+      "preco": 47,
+      "cpm": [16, 24, 38],
+      "ctr": [0.012, 0.019, 0.030],
+      "persona": {"dor": [6, 2], "confianca": [3, 3], "impulso": [4, 3], "wtp_mediana": 70},
+      "order_bump": {"preco": 19, "taxa": [0.25, 0.35, 0.45]},
+      "upsell": {"preco": 67, "taxa": [0.06, 0.10, 0.15]},
+      "reembolso": [0.03, 0.05, 0.08],
+      "qualitativo": {"demanda": 8, "concorrencia": 6, "risco_politica_meta": 9, "escala": 7, "recompra": 8}
+    },
+    {
+      "id": "dividas",
+      "nome": "Sair das dívidas (finanças pessoais)",
+      "produto": "Método de 30 dias + planilha automática de quitação de dívidas + modelos de negociação com bancos",
+      "preco": 47,
+      "cpm": [20, 30, 48],
+      "ctr": [0.010, 0.016, 0.026],
+      "persona": {"dor": [6, 2], "confianca": [2.5, 3.5], "impulso": [3, 4], "wtp_mediana": 55},
+      "order_bump": {"preco": 19, "taxa": [0.20, 0.30, 0.40]},
+      "upsell": {"preco": 67, "taxa": [0.05, 0.08, 0.12]},
+      "reembolso": [0.04, 0.07, 0.10],
+      "qualitativo": {"demanda": 9, "concorrencia": 5, "risco_politica_meta": 6, "escala": 9, "recompra": 6}
+    },
+    {
+      "id": "ansiedade",
+      "nome": "Controle da ansiedade no dia a dia",
+      "produto": "Programa de 21 dias com técnicas de respiração e TCC aplicada, áudios guiados e diário",
+      "preco": 37,
+      "cpm": [18, 27, 42],
+      "ctr": [0.011, 0.017, 0.027],
+      "persona": {"dor": [5, 2], "confianca": [2.5, 3], "impulso": [4, 3], "wtp_mediana": 50},
+      "order_bump": {"preco": 17, "taxa": [0.20, 0.30, 0.40]},
+      "upsell": {"preco": 67, "taxa": [0.05, 0.08, 0.12]},
+      "reembolso": [0.04, 0.07, 0.10],
+      "qualitativo": {"demanda": 9, "concorrencia": 5, "risco_politica_meta": 5, "escala": 8, "recompra": 6}
+    },
+    {
+      "id": "ia_trabalho",
+      "nome": "IA para o trabalho (prompts e automações)",
+      "produto": "Biblioteca de 500 prompts por profissão + guia de automações com IA + atualizações mensais",
+      "preco": 37,
+      "cpm": [14, 22, 35],
+      "ctr": [0.010, 0.016, 0.025],
+      "persona": {"dor": [3.5, 3], "confianca": [3, 3], "impulso": [3.5, 3], "wtp_mediana": 45},
+      "order_bump": {"preco": 17, "taxa": [0.25, 0.35, 0.45]},
+      "upsell": {"preco": 97, "taxa": [0.04, 0.07, 0.10]},
+      "reembolso": [0.05, 0.08, 0.12],
+      "qualitativo": {"demanda": 8, "concorrencia": 3, "risco_politica_meta": 9, "escala": 8, "recompra": 5}
+    },
+    {
+      "id": "cardapio_airfryer",
+      "nome": "Cardápio semanal saudável na airfryer",
+      "produto": "Cardápio de 4 semanas com lista de compras, 120 receitas na airfryer e planner de marmitas",
+      "preco": 37,
+      "cpm": [12, 19, 30],
+      "ctr": [0.012, 0.020, 0.032],
+      "persona": {"dor": [3, 3], "confianca": [3.5, 2.5], "impulso": [5, 2.5], "wtp_mediana": 45},
+      "order_bump": {"preco": 17, "taxa": [0.30, 0.40, 0.50]},
+      "upsell": {"preco": 47, "taxa": [0.06, 0.10, 0.15]},
+      "reembolso": [0.03, 0.05, 0.08],
+      "qualitativo": {"demanda": 8, "concorrencia": 4, "risco_politica_meta": 7, "escala": 9, "recompra": 8}
+    },
+    {
+      "id": "adestramento",
+      "nome": "Adestramento de cães em casa",
+      "produto": "Método de 15 minutos por dia com vídeos curtos para xixi no lugar, latidos e passeio sem puxar",
+      "preco": 47,
+      "cpm": [12, 18, 28],
+      "ctr": [0.011, 0.018, 0.028],
+      "persona": {"dor": [4.5, 2.5], "confianca": [3, 3], "impulso": [4, 3], "wtp_mediana": 60},
+      "order_bump": {"preco": 19, "taxa": [0.25, 0.32, 0.42]},
+      "upsell": {"preco": 67, "taxa": [0.05, 0.08, 0.12]},
+      "reembolso": [0.04, 0.06, 0.09],
+      "qualitativo": {"demanda": 7, "concorrencia": 6, "risco_politica_meta": 9, "escala": 7, "recompra": 5}
+    }
+  ]
+}
